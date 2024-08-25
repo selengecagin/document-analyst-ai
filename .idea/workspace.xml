@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Initialize conversation chain using vector store">
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Implement conversation chain with ChatOpenAI, memory management, and vector store retrieval for interactive dialogue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -90,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724582560944</updated>
-      <workItem from="1724582562750" duration="9588000" />
+      <workItem from="1724582562750" duration="10255000" />
     </task>
     <task id="LOCAL-00001" summary="Install dependencies">
       <option name="closed" value="true" />
@@ -260,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724593325834</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Implement conversation chain with ChatOpenAI, memory management, and vector store retrieval for interactive dialogue">
+      <option name="closed" value="true" />
+      <created>1724594782638</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724594782638</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +299,7 @@
     <MESSAGE value="Correct parameter names in get_vector_store to resolve TypeError" />
     <MESSAGE value="Install InstructorEmbedding and sentence_transformer libraries" />
     <MESSAGE value="Initialize conversation chain using vector store" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize conversation chain using vector store" />
+    <MESSAGE value="Implement conversation chain with ChatOpenAI, memory management, and vector store retrieval for interactive dialogue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement conversation chain with ChatOpenAI, memory management, and vector store retrieval for interactive dialogue" />
   </component>
 </project>
