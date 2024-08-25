@@ -26,7 +26,7 @@ def get_text_chunks(text):
 
 def get_vector_store(text_chunks):
     embeddings = OpenAIEmbeddings()
-    vector_store = FAISS.from_texts(text = text_chunks, embeddings = embeddings)
+    vector_store = FAISS.from_texts(texts = text_chunks, embedding = embeddings)
     return vector_store
 
 def main():
@@ -50,7 +50,7 @@ def main():
 
             # get the text chunks
             text_chunks = get_text_chunks(raw_text)
-            st.write(text_chunks)
+            # st.write(text_chunks)
 
             # create vector store
             vector_store = get_vector_store(text_chunks)
