@@ -11,8 +11,17 @@ def main():
     # Sidebar to users upload the PDFs, with for put things inside the sidebar
     with st.sidebar:
         st.subheader("Your Documents")
-        pdf_docs = st.file_uploader("Upload your PDFs here and click on 'Process'", type="pdf", accept_multiple_files=True)
-        st.button("Process")
+        pdf_docs = st.file_uploader(
+            "Upload your PDFs here and click on 'Process'", type="pdf", accept_multiple_files=True)
+        if st.button("Process"):
+           with st.spinner("Processing your documents..."):
+
+            # get the pdf text
+
+            # get the text chunks
+
+            # create vector store
+
 
 if __name__ == '__main__':
     main()
