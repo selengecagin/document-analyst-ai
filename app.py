@@ -1,6 +1,12 @@
 import streamlit as st
 from dotenv import load_dotenv
-from PyPDF2 import PdfFileReader
+from PyPDF2 import PdfFileReader, PdfReader
+
+
+def get_pdf_text(pdf_docs):
+    text = ""
+    for pdf in pdf_docs:
+        pdf_reader = PdfReader(pdf)
 
 def main():
     load_dotenv()
