@@ -29,6 +29,8 @@ def get_vector_store(text_chunks):
     vector_store = FAISS.from_texts(texts = text_chunks, embedding = embeddings)
     return vector_store
 
+
+
 def main():
     load_dotenv()
 
@@ -54,6 +56,9 @@ def main():
 
             # create vector store
             vector_store = get_vector_store(text_chunks)
+
+            # create conversation chain
+            conversation = get_conversation_chain(vectorstore)
 
 
 if __name__ == '__main__':
