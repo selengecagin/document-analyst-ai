@@ -22,6 +22,8 @@ def get_text_chunks(text):
     chunks = text_splitter.split_text(text)
     return chunks
 
+def get_vector_store(text_chunks):
+
 def main():
     load_dotenv()
 
@@ -46,6 +48,8 @@ def main():
             st.write(text_chunks)
 
             # create vector store
+            vector_store = get_vector_store(text_chunks)
+
 
 if __name__ == '__main__':
     main()
