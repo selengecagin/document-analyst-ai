@@ -45,6 +45,10 @@ def main():
     load_dotenv()
 
     st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:", layout="wide")
+
+    if"conversation" not in st.session_state:
+        st.session_state.conversation = None
+
     st.header("Chat with multiple PDFs :books:")
     st.text_input("Ask a question about your documents:")
 
@@ -54,10 +58,23 @@ def main():
             "Upload your PDFs here and click on 'Process'", type="pdf", accept_multiple_files=True)
         if st.button("Process"):
            with st.spinner("Processing your documents..."):
+            # get pdf text
             raw_text = get_pdf_text(pdf_docs)
+
+            # get text chunks
             text_chunks = get_text_chunks(raw_text)
+
+            # create vector store
             vector_store = get_vector_store(text_chunks)
-            conversation = get_conversation_chain(vector_store)
+
+            # create conversation chain, it takes history of the conv. and returns the next element in the conv.
+            # session state is used to store the conversation chain -this variable is not supposed to be re-initialized
+            # streamlit usually load all code from scratch when the page is refreshed
+            # session_state is used to store the conversation chain -this variable is not supposed to be re-initialized
+            st.session_state.conversation = get_conversation_chain(vector_store)
+            st.success("Documents processed successfully!")
+
+    st.session_state.conversation
 
 if __name__ == '__main__':
     main()
