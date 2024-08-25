@@ -47,6 +47,7 @@ def main():
 
     st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:", layout="wide")
 
+    # add custom css*
     st.write(css, unsafe_allow_html=True)
 
     if"conversation" not in st.session_state:
@@ -54,6 +55,10 @@ def main():
 
     st.header("Chat with multiple PDFs :books:")
     st.text_input("Ask a question about your documents:")
+
+    # display the chat messages*
+    st.write(user_template, unsafe_allow_html=True)
+    st.write(bot_template, unsafe_allow_html=True)
 
     with st.sidebar:
         st.subheader("Your Documents")

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Create bot message template for chat interface" />
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Import and apply HTML templates and CSS in Streamlit">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724582560944</updated>
-      <workItem from="1724582562750" duration="11687000" />
+      <workItem from="1724582562750" duration="12064000" />
     </task>
     <task id="LOCAL-00001" summary="Install dependencies">
       <option name="closed" value="true" />
@@ -297,7 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724596552972</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Create user message template for chat interface">
+      <option name="closed" value="true" />
+      <created>1724596591283</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596591283</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Import and apply HTML templates and CSS in Streamlit">
+      <option name="closed" value="true" />
+      <created>1724596712846</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596712846</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,8 +325,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement main function" />
-    <MESSAGE value="Set page configuration" />
     <MESSAGE value="Add header and text input" />
     <MESSAGE value="Add sidebar for PDF uploads and processing" />
     <MESSAGE value="Load environment variables" />
@@ -332,6 +348,8 @@
     <MESSAGE value="Initialize conversation state in Streamlit session" />
     <MESSAGE value="Add custom CSS styling for chat interface" />
     <MESSAGE value="Create bot message template for chat interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create bot message template for chat interface" />
+    <MESSAGE value="Create user message template for chat interface" />
+    <MESSAGE value="Import and apply HTML templates and CSS in Streamlit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import and apply HTML templates and CSS in Streamlit" />
   </component>
 </project>
