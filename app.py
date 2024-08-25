@@ -54,7 +54,9 @@ def main():
         st.session_state.conversation = None
 
     st.header("Chat with multiple PDFs :books:")
-    st.text_input("Ask a question about your documents:")
+    user_question = st.text_input("Ask a question about your documents:")
+    if user_question:
+        handle_userinput(user_question)
 
     # display the chat messages*
     st.write(user_template.replace("{{MSG}}", "Hello Robot"), unsafe_allow_html=True)
