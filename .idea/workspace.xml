@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Render chat messages by displaying user and bot templates">
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Display dynamic chat messages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/htmlTemplate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724582560944</updated>
-      <workItem from="1724582562750" duration="12324000" />
+      <workItem from="1724582562750" duration="13291000" />
     </task>
     <task id="LOCAL-00001" summary="Install dependencies">
       <option name="closed" value="true" />
@@ -323,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724597037846</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Display dynamic chat messages">
+      <option name="closed" value="true" />
+      <created>1724597238839</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1724597238839</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +343,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add sidebar for PDF uploads and processing" />
     <MESSAGE value="Load environment variables" />
     <MESSAGE value="Enable multiple file upload" />
     <MESSAGE value="Add processing spinner" />
@@ -358,6 +367,7 @@
     <MESSAGE value="Create user message template for chat interface" />
     <MESSAGE value="Import and apply HTML templates and CSS in Streamlit" />
     <MESSAGE value="Render chat messages by displaying user and bot templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Render chat messages by displaying user and bot templates" />
+    <MESSAGE value="Display dynamic chat messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Display dynamic chat messages" />
   </component>
 </project>
