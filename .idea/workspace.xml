@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Replace deprecated methods" />
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Split extracted text into chunks">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724582560944</updated>
-      <workItem from="1724582562750" duration="4871000" />
+      <workItem from="1724582562750" duration="5186000" />
     </task>
     <task id="LOCAL-00001" summary="Install dependencies">
       <option name="closed" value="true" />
@@ -185,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724588097640</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Split extracted text into chunks">
+      <option name="closed" value="true" />
+      <created>1724588277837</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724588277837</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +217,7 @@
     <MESSAGE value="Initialize text variable and loop through PDFs" />
     <MESSAGE value="Accumulate the extracted text and return it as a single string" />
     <MESSAGE value="Replace deprecated methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace deprecated methods" />
+    <MESSAGE value="Split extracted text into chunks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split extracted text into chunks" />
   </component>
 </project>
