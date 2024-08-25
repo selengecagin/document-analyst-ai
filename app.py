@@ -43,6 +43,7 @@ def main():
 
             # get the text chunks
             text_chunks = get_text_chunks(raw_text)
+            st.write(text_chunks)
 
             # create vector store
 
