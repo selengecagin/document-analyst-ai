@@ -74,7 +74,6 @@ def main():
             st.session_state.conversation = get_conversation_chain(vector_store)
             st.success("Documents processed successfully!")
 
-    st.session_state.conversation
 
 if __name__ == '__main__':
     main()
