@@ -1,5 +1,6 @@
 import streamlit as st
 from dotenv import load_dotenv
+from PyPDF2 import PdfFileReader
 
 def main():
     load_dotenv()
@@ -15,9 +16,8 @@ def main():
             "Upload your PDFs here and click on 'Process'", type="pdf", accept_multiple_files=True)
         if st.button("Process"):
            with st.spinner("Processing your documents..."):
-
-            # get the pdf text
-
+            # get the pdf text - will return a single string of text with all given content
+            raw_text = get_pdf_text(pdf_docs)
             # get the text chunks
 
             # create vector store
