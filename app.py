@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 from gitdb.fun import chunk_size
 from langchain.text_splitter import CharacterTextSplitter
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.vectorstores import FAISS
 
 def get_pdf_text(pdf_docs):
     text = ""
@@ -23,6 +25,9 @@ def get_text_chunks(text):
     return chunks
 
 def get_vector_store(text_chunks):
+    embeddings = OpenAIEmbeddings()
+    vector_store = FAISS.from_texts(text = text_chunks, embeddings = embeddings)
+    return vector_store
 
 def main():
     load_dotenv()
