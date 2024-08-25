@@ -11,7 +11,7 @@ def main():
     # Sidebar to users upload the PDFs, with for put things inside the sidebar
     with st.sidebar:
         st.subheader("Your Documents")
-        st.file_uploader("Upload your PDFs here and click on 'Process'", type="pdf", accept_multiple_files=True)
+        pdf_docs = st.file_uploader("Upload your PDFs here and click on 'Process'", type="pdf", accept_multiple_files=True)
         st.button("Process")
 
 if __name__ == '__main__':
