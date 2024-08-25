@@ -1,6 +1,6 @@
 import streamlit as st
 from dotenv import load_dotenv
-from PyPDF2 import PdfFileReader, PdfReader
+from PyPDF2 import PdfReader
 
 
 def get_pdf_text(pdf_docs):
@@ -8,7 +8,7 @@ def get_pdf_text(pdf_docs):
     for pdf in pdf_docs:
         pdf_reader = PdfReader(pdf)
         for page in pdf_reader.pages:
-            text += page.extractText()
+            text += page.extract_text()
     return text
 
 def main():
@@ -27,6 +27,7 @@ def main():
            with st.spinner("Processing your documents..."):
             # get the pdf text - will return a single string of text with all given content
             raw_text = get_pdf_text(pdf_docs)
+            st.write(raw_text)
             # get the text chunks
 
             # create vector store
