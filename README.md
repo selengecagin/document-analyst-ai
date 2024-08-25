@@ -1,6 +1,8 @@
-## Introduction
-------------
-The Document Analyst is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Just so you know, the app will only respond to questions related to the loaded PDFs.
+# Document Analyst: Your Intelligent PDF Companion
+
+## Overview
+
+The Document Analyst is a sophisticated Python application that revolutionizes your interaction with multiple PDF documents. This powerful tool enables you to engage in natural language conversations about the content of your PDFs, providing an intuitive and efficient way to extract information and insights.
 
 ## How It Works
 ------------
