@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Process and display conversation response">
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Initialize chat history in session state">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -93,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724582560944</updated>
-      <workItem from="1724582562750" duration="14032000" />
+      <workItem from="1724582562750" duration="15045000" />
     </task>
     <task id="LOCAL-00001" summary="Install dependencies">
       <option name="closed" value="true" />
@@ -359,7 +359,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724598554081</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Replace static message rendering with dynamic chat history display">
+      <option name="closed" value="true" />
+      <created>1724598907398</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1724598907398</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Initialize chat history in session state">
+      <option name="closed" value="true" />
+      <created>1724599051729</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1724599051729</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,8 +385,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add placeholder for extracting text from PDFs" />
-    <MESSAGE value="Initialize text variable and loop through PDFs" />
     <MESSAGE value="Accumulate the extracted text and return it as a single string" />
     <MESSAGE value="Replace deprecated methods" />
     <MESSAGE value="Split extracted text into chunks" />
@@ -394,6 +408,8 @@
     <MESSAGE value="Update avatar images in bot and user chat templates" />
     <MESSAGE value="Capture and handle user inpu" />
     <MESSAGE value="Process and display conversation response" />
-    <option name="LAST_COMMIT_MESSAGE" value="Process and display conversation response" />
+    <MESSAGE value="Replace static message rendering with dynamic chat history display" />
+    <MESSAGE value="Initialize chat history in session state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize chat history in session state" />
   </component>
 </project>

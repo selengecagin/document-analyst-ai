@@ -7,7 +7,10 @@ from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
+from sympy.physics.units import temperature
+
 from htmlTemplate import css, bot_template, user_template
+from langchain.llms import HuggingFaceHub
 
 def get_pdf_text(pdf_docs):
     text = ""
@@ -34,6 +37,7 @@ def get_vector_store(text_chunks):
 
 def get_conversation_chain(vector_store):
     llm = ChatOpenAI()
+    # llm= HuggingFaceHub(repo_id="google/flan-t5-xxl",model_kwargs={"temperature":8.5,"max_length": 512})
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
     conversation_chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
