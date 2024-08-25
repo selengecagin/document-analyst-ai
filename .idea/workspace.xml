@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Set up HuggingFaceHub with flan-t5-xxl model to evaluate response performance" />
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Add diagram file to remote repo">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,24 +16,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "selengecagin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;selengecagin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/selengecagin/document-analyst-ai.git",
-    "accountId": "bdffda72-4d7b-4d7c-b755-d6fd00423529"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/selengecagin/document-analyst-ai.git&quot;,
+    &quot;accountId&quot;: &quot;bdffda72-4d7b-4d7c-b755-d6fd00423529&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2l9Bl9qoAdpaDOzN4cQjmXeoBWz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -49,6 +53,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="document-analyst-ai" />
@@ -90,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724582560944</updated>
-      <workItem from="1724582562750" duration="15697000" />
+      <workItem from="1724582562750" duration="17221000" />
     </task>
     <task id="LOCAL-00001" summary="Install dependencies">
       <option name="closed" value="true" />
@@ -380,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724599940088</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add diagram file to remote repo">
+      <option name="closed" value="true" />
+      <created>1724604945761</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1724604945761</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +407,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Replace deprecated methods" />
     <MESSAGE value="Split extracted text into chunks" />
     <MESSAGE value="Initialize CharacterTextSplitter with separator, chunk size, chunk overlap, and length function" />
     <MESSAGE value="Optimize the splitting strategy for better handling of large text inputs" />
@@ -415,6 +431,7 @@
     <MESSAGE value="Replace static message rendering with dynamic chat history display" />
     <MESSAGE value="Initialize chat history in session state" />
     <MESSAGE value="Set up HuggingFaceHub with flan-t5-xxl model to evaluate response performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up HuggingFaceHub with flan-t5-xxl model to evaluate response performance" />
+    <MESSAGE value="Add diagram file to remote repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add diagram file to remote repo" />
   </component>
 </project>
