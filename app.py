@@ -42,6 +42,10 @@ def get_conversation_chain(vector_store):
     )
     return conversation_chain
 
+def handle_userinput(user_question):
+    response = st.session_state.conversation({'question': user_question})
+    st.write(response)
+
 def main():
     load_dotenv()
 
