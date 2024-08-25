@@ -27,9 +27,9 @@ def main():
            with st.spinner("Processing your documents..."):
             # get the pdf text - will return a single string of text with all given content
             raw_text = get_pdf_text(pdf_docs)
-            st.write(raw_text)
+            # st.write(raw_text)
             # get the text chunks
-
+            text_chunks = get_text_chunks(raw_text)
             # create vector store
 
 
