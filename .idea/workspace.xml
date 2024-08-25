@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Add diagram file to remote repo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Update dependencies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -397,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724604945761</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Update dependencies">
+      <option name="closed" value="true" />
+      <created>1724607175600</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1724607175600</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +412,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Split extracted text into chunks" />
     <MESSAGE value="Initialize CharacterTextSplitter with separator, chunk size, chunk overlap, and length function" />
     <MESSAGE value="Optimize the splitting strategy for better handling of large text inputs" />
     <MESSAGE value="Display text chunks in Streamlit app" />
@@ -432,7 +436,8 @@
     <MESSAGE value="Initialize chat history in session state" />
     <MESSAGE value="Set up HuggingFaceHub with flan-t5-xxl model to evaluate response performance" />
     <MESSAGE value="Add diagram file to remote repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add diagram file to remote repo" />
+    <MESSAGE value="Update dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dependencies" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/document_analyst_ai$main.coverage" NAME="main Coverage Results" MODIFIED="1724606497410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
