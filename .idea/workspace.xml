@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Install InstructorEmbedding and sentence_transformer libraries">
+    <list default="true" id="9f8eb47c-0905-4955-9746-318d0a66c264" name="Changes" comment="Initialize conversation chain using vector store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724582560944</updated>
-      <workItem from="1724582562750" duration="8675000" />
+      <workItem from="1724582562750" duration="9588000" />
     </task>
     <task id="LOCAL-00001" summary="Install dependencies">
       <option name="closed" value="true" />
@@ -251,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724591905958</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Initialize conversation chain using vector store">
+      <option name="closed" value="true" />
+      <created>1724593325834</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724593325834</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +290,7 @@
     <MESSAGE value="Create vector store using OpenAI embeddings with FAISS" />
     <MESSAGE value="Correct parameter names in get_vector_store to resolve TypeError" />
     <MESSAGE value="Install InstructorEmbedding and sentence_transformer libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install InstructorEmbedding and sentence_transformer libraries" />
+    <MESSAGE value="Initialize conversation chain using vector store" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize conversation chain using vector store" />
   </component>
 </project>

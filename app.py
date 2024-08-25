@@ -5,6 +5,9 @@ from gitdb.fun import chunk_size
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
+from langchain.chat_models import  ChatOpenAI
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import ConversationalRetrievelChain
 
 def get_pdf_text(pdf_docs):
     text = ""
@@ -29,7 +32,15 @@ def get_vector_store(text_chunks):
     vector_store = FAISS.from_texts(texts = text_chunks, embedding = embeddings)
     return vector_store
 
-
+def get_conversation_chain(vectorstore):
+    llm = ChatOpenAI()
+    memory = ConversationBufferMemory(memory_key='chat_history',return_message=True)
+    conversation_chain = ConversationalRetrievelChain.from_llm(
+        llm = llm,
+        retriever = vectorstore.as_retriever(),
+        memory = memory
+    )
+    return conversation_chain
 
 def main():
     load_dotenv()
