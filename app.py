@@ -1,5 +1,9 @@
+import streamlit as st
+
+
+
 def main():
-    print("hello world")
+   st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:", layout="wide")
 
 if __name__ == '__main__':
     main()
