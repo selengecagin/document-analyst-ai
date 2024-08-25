@@ -57,8 +57,8 @@ def main():
     st.text_input("Ask a question about your documents:")
 
     # display the chat messages*
-    st.write(user_template, unsafe_allow_html=True)
-    st.write(bot_template, unsafe_allow_html=True)
+    st.write(user_template.replace("{{MSG}}", "Hello robot"), unsafe_allow_html=True)
+    st.write(bot_template.replace("{{MSG}}", "Hello human"), unsafe_allow_html=True)
 
     with st.sidebar:
         st.subheader("Your Documents")
