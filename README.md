@@ -6,7 +6,7 @@ The Document Analyst is a sophisticated Python application that revolutionizes y
 
 ## How It Works
 ------------
-![MultiPDF Chat App Diagram](./docs/document-analyst-ai.png)
+![Document Analyst App Diagram](./docs/document-analyst-ai.png)
 
 1. PDF Processing: The app efficiently extracts text from multiple uploaded PDF documents.
 2. Text Segmentation: The extracted text is intelligently divided into manageable parts for effective processing.
@@ -17,7 +17,7 @@ The Document Analyst is a sophisticated Python application that revolutionizes y
 
 ## Dependencies and Installation
 ----------------------------
-To install the MultiPDF Chat App, please follow these steps:
+To install the Document Analyst App, please follow these steps:
 
 1. Clone the repository to your local machine.
 
